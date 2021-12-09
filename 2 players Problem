@@ -18,7 +18,7 @@ int main() {
             cin>>a[i];
         for(i=0;i<N;i++)
         {   //cout<<a[i]<<endl;
-            for(int j=2;j<=a[i]/2;i++)
+            for(int j=2;j<=a[i]/2;i++)// J++ should be there but dont know how 3 casespassed. pls help. check issue created
             {
                 if(a[i]%j==0)
                 {    count++;
